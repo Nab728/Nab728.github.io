@@ -1,7 +1,7 @@
 body{
     font-family: 'Enriqueta', serif;
     text-align: center;  
-    background-image: url(image2\(background\).jpg);  
+    background-image: url(image2\(background\.jpg);  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,6 +23,8 @@ nav a:link, a:visited{
 #animeimg{
     width: 1349px;
     height: auto;
+    max-height: 90%;
+    max-width: 90%;
 }
 #fig1{
     font-size: 65px;

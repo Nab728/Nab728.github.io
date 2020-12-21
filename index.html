@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Enriqueta:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Anime Form</title>
+</head>
+<body>
+  
+    <nav>
+         <ul class="nav_links">
+            <li class="Home"><a href="./home.html">Home</a></li>
+            <li class="About Anime"><a href="./index2.html">About Me</a></li>
+            <li class="Contact Me"><a href="./index3.html">Contact Me</a></li>
+         </ul>
+    </nav>       
+    <figure>
+        <image src="image1(form).png" id="img1">
+             <h1> Anime above is Blue exorcist</h1>
+        </image>
+    </figure> 
+             
+      <br>
+      <div class="form">
+          <p>Anime Form</p>
+          <br>
+          <form action="form.html" method="GET">
+              <label for="anime">Would you like an anime reccomendation?</label>
+              <br>
+              <input type="radio" name="anime" id="yes" value="yes" required>
+              <label for="yes">Yes</label>
+              <input type="radio" name="anime" id="no" value="no" required>
+              <label for="no">No</label>
+              <br><br><br><br>
+              <label for="anime seen">Which anime have you seen from the list below and of
+                  the ones' you've seen and  choose your favorite. Pick the first option if you've seen none.
+              </label>
+              <br>
+              <select name="anime seen" id="anime seen">
+                  <option placeholder="N/A" value=""></option>
+                  <option value="">Attack on Titan</option>
+                  <option value="">Pokemon</option>
+                  <option value="">Steins;gate</option>
+                  <option value="">Dragon Ball Z</option>
+                  <option value="">Haikyuu</option>
+                  <option value="">Re:Zero</option>
+                  <option value="">HunterxHunter</option>
+                  <option value="">Sword Art Online</option>
+                  <option value="">Yuri on Ice</option>
+                  <option value="">Fairy Tail</option>
+                  <option value="">Yu Gi Oh</option>
+                  <option value="">One Punch Man</option>
+                  <option value="">I like/hate them equally</option>
+              </select>
+              <br><br><br><br>
+              <label><span>Now I want you to write about what type of anime you would like to see.</span></label>
+              <br>
+              <textarea placeholder="Write here" rows="3" cols="40" required></textarea>
+              <br><br>
+              <input type="submit" value="submit" required>
+          </form>
+      </div>
+</body>
+</html>

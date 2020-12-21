@@ -1,0 +1,33 @@
+body{
+    font-family: 'Enriqueta', serif;
+    text-align: center;  
+    background-image: url(design-space-paper-textured-background.jpg);  
+}
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-left: 1000px;
+    text-decoration: none;
+    font-size: 20px; 
+}
+
+nav a:link, a:visited{
+    text-decoration: none;
+    color: red;
+    filter: drop-shadow(6px 5px 5px black)
+}
+#animeimg{
+    width: 1349px;
+    height: auto;
+}
+#fig1{
+    font-size: 65px;
+}
+p{
+    font-size: 20px;
+}
+#animeform{
+    color: blue;
+    text-decoration: none;
+}

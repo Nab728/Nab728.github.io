@@ -9,7 +9,7 @@ body{
 .nav_links {
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 19px;
     margin-left: 1000px;
     text-decoration: none;
     font-size: 20px; 

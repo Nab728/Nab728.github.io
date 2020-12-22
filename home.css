@@ -6,21 +6,23 @@ body{
     background-size: 100%;
 }
 .nav_links {
-    display: flex;
-    justify-content: space-around;
     padding: 19px;
-    margin-left: 1000px;
+    position: fixed;
     text-decoration: none;
     font-size: 20px; 
+    background-color: orange;
 }
-
+nav a{
+    margin: 20px 175px;
+    
+}
 nav a:link, a:visited{
     text-decoration: none;
-    color: red;
+    color: white;
     filter: drop-shadow(6px 5px 5px black)
 }
 #animeimg{
-    width: 1349px;
+    width: 1100px;
     height: auto;
     max-height: 90%;
     max-width: 90%;

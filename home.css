@@ -6,15 +6,17 @@ body{
     background-size: 100%;
 }
 .nav_links {
-    padding: 19px;
+    display: flex;
     position: fixed;
     text-decoration: none;
     font-size: 20px; 
     background-color: orange;
 }
 nav a{
-    margin: 20px 175px;
-    
+    display: flex;
+    justify-content: space-evenly;
+    width: 420px;
+    padding: 15px;
 }
 nav a:link, a:visited{
     text-decoration: none;

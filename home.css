@@ -9,14 +9,14 @@ body{
     display: flex;
     position: fixed;
     text-decoration: none;
-    width: 1000px;
+    width: 2000px;
+    height: 50px;
     font-size: 20px; 
     background-color: red;
 }
 nav a{
     display: flex;
     justify-content: space-evenly;
-    width: 1000px;
     padding: 15px;
     width: 100%;
 }

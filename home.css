@@ -15,7 +15,7 @@ body{
 nav a{
     display: flex;
     justify-content: space-evenly;
-    width: 420px;
+    width: 600px;
     padding: 15px;
     width: 100%;
 }

@@ -9,6 +9,7 @@ body{
     display: flex;
     position: fixed;
     text-decoration: none;
+    width: 1000px;
     font-size: 20px; 
     background-color: orange;
 }
